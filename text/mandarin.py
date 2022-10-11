@@ -8,7 +8,7 @@ import logging
 
 logging.getLogger('jieba').setLevel(logging.WARNING)
 #jieba.set_dictionary(os.path.dirname(sys.argv[0])+'/jieba/dict.txt')
-jieba.set_dictionary('/content/VTSFC7051/jieba/dict.txt')
+jieba.set_dictionary('/content/VTSFC7051/text/dict.txt')
 jieba.initialize()
 
 
