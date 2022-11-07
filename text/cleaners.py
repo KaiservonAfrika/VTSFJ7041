@@ -7,6 +7,8 @@ from text.english import english_to_lazy_ipa, english_to_ipa2
 #from text.thai import num_to_thai, latin_to_thai
 #from text.shanghainese import shanghainese_to_ipa
 
+def basic_cleaners(text)
+    return text
 
 def japanese_cleaners(text):
     text = japanese_to_romaji_with_accent(text)
