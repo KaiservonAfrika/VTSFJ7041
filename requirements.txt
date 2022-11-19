@@ -4,9 +4,9 @@ matplotlib
 numpy
 phonemizer
 scipy
-tensorboard==2.3.0
-torch==1.6.0
-torchvision==0.7.0
+tensorboard
+torch
+torchvision
 Unidecode
 pyopenjtalk
 jamo
